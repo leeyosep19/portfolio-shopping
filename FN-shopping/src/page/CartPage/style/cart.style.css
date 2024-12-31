@@ -1,0 +1,61 @@
+.product-card-cart{
+     margin-bottom: 10px;
+    
+}
+.qty-dropdown{
+    max-width:400px;
+}
+.trash-button{
+    color: rgb(255, 110, 110);
+    background-color: white;
+    border: 1px solid rgb(255, 110, 110);
+}
+.product-card-cart{
+    background-color: rgb(237, 237, 255);
+    padding:10px;
+}
+.product-card-cart img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; /* 이미지가 영역을 넘어가지 않게 설정 */
+  }
+  
+  .product-card-cart h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+
+
+.receipt-container{
+    border: 1px solid gray;
+    padding: 32px 24px;
+}
+
+
+.receipt-list{
+    list-style-type: none;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+.receipt-list li{
+    padding-bottom: 10px;
+}
+
+.receipt-title{
+    margin-bottom: 20px;
+}
+
+.payment-button{
+   width: 100%;
+   padding: 16px;
+   margin-bottom: 20px;
+}
+.text-align-center{
+    text-align: center;
+}
+.empty-bag{
+    background-color: white;
+    padding: 20px;
+}
